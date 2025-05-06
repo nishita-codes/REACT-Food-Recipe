@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {useParams} from 'react-router-dom';
+import {NavLink, useParams} from 'react-router-dom';
 
 const MealInfo = () => {
     const {mealid} = useParams();
@@ -26,6 +26,9 @@ const MealInfo = () => {
         <h3>Instruction's</h3>
         <p>{info.strInstructions}</p>
       </div>
+      <NavLink to="/" className="backBtn">
+         <button>Go Back</button>
+       </NavLink>
     </div>
     }
     </div>

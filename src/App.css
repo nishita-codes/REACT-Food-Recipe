@@ -121,7 +121,17 @@ margin-left:5px;
     color: #fff;
    }
    .mealInfo .info{
-    margin-top: -112px;
+    margin-top: -15px;
+  }
+  .backBtn{
+    margin-top:35rem;
+    /* margin-right:1rem; */
+    margin-left:-5rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration:none;
+    
   }
   h3{
     font-weight: 800;
